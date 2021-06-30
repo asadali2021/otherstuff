@@ -1,0 +1,15 @@
+<View style={styles.signup}>
+              <Button title="SIGN UP" activeOpacity={0.2} onPress={() => Alert.alert("This is an alert")}>
+                {/* <LinearGradient
+              start={{ x: 1, y: 1 }}
+              end={{ x: 0.9, y: 0.9 }}
+              colors={['#4634A9', '#F63669',]}
+              style={
+                styles.b1}> */}
+                {/* <Text style={{
+                  color: '#e9e5e9',
+                  fontFamily: 'Lato-Regular',
+                }}>SIGN UP</Text> */}
+                {/* </LinearGradient> */}
+              </Button>
+              </View>

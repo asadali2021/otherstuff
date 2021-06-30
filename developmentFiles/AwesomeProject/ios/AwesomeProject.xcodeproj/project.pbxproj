@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		97A9D0755094424F9C703A52 /* AdobeCleanBlack.woff in Resources */ = {isa = PBXBuildFile; fileRef = E826564D618243AA8FF838DE /* AdobeCleanBlack.woff */; };
+		FF86C7B49B9B4977A805ABC5 /* AdobeCleanBlackIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EBB50793347CD9A5A626A /* AdobeCleanBlackIt.woff */; };
+		3B7B5FE6B3C2460881377556 /* AdobeCleanBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = F95C278A03B24DA29DB904DE /* AdobeCleanBold.woff */; };
+		32FC245B04D845CA9C54DAF3 /* AdobeCleanBoldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3F10EFA7BB2A4584BFD0DADC /* AdobeCleanBoldIt.woff */; };
+		C8168685A88C4836A5249C2E /* AdobeCleanBoldSemiCn.woff in Resources */ = {isa = PBXBuildFile; fileRef = E3C6D3914E4A4B5A9E99E9D4 /* AdobeCleanBoldSemiCn.woff */; };
+		14BC385560DC4965A9BB1664 /* AdobeCleanBoldSemiCnIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = E6E122B6402F4422AA86977C /* AdobeCleanBoldSemiCnIt.woff */; };
+		E9764AA2C8394803A83A02D9 /* AdobeCleanExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 655D1D149FE04F3EB7B18039 /* AdobeCleanExtraBold.woff */; };
+		4FBF607CE4464545B2C907A8 /* AdobeCleanExtraBoldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = E5F99716519441F48C183D4D /* AdobeCleanExtraBoldIt.woff */; };
+		3888418565CE4F8F954BD733 /* AdobeCleanIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 269FEA4085B24DF990195E41 /* AdobeCleanIt.woff */; };
+		17832E1DF1CD4CB7BAE523D8 /* AdobeCleanLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = 351BB70B87FB4C78AA8F3936 /* AdobeCleanLight.woff */; };
+		6EA058DA22E2474E9D01A3E2 /* AdobeCleanLightIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = EE7AD6B42B9E4BE8933E38DB /* AdobeCleanLightIt.woff */; };
+		D0E263DA048A42D79431D733 /* AdobeCleanRegular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 226571847D1D483DAFB127E6 /* AdobeCleanRegular.woff */; };
+		00D090D46EBC479589187961 /* AdobeCleanSemiCn.woff in Resources */ = {isa = PBXBuildFile; fileRef = 425FE5F11EFD4050A86684D8 /* AdobeCleanSemiCn.woff */; };
+		FAE0AA40030D4969B53897ED /* AdobeCleanSemiCnIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 876E7F71282B4C90BA8671B3 /* AdobeCleanSemiCnIt.woff */; };
+		01D4B913B42943EAB49AD5D2 /* AdobeCleanSemiLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = BBF933199AAE457C93B4FDEA /* AdobeCleanSemiLight.woff */; };
+		B2769BE5150C45CF8E7865E2 /* AdobeCleanSerifBlack.woff in Resources */ = {isa = PBXBuildFile; fileRef = EC88A5884F224F6F92663B02 /* AdobeCleanSerifBlack.woff */; };
+		D669AD16D0F44DE78E143601 /* AdobeCleanSerifBlackIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 68B1473525C84C6FB9824C6F /* AdobeCleanSerifBlackIt.woff */; };
+		59E7840C247B459AB9B44EB7 /* AdobeCleanSerifBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 27CB7A47DC094458967F7F48 /* AdobeCleanSerifBold.woff */; };
+		FCA0E75626334A35B6D9EE89 /* AdobeCleanSerifBoldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4B9775FECB3544FCBB5536B7 /* AdobeCleanSerifBoldIt.woff */; };
+		511D7DCBCD244CA397A98A2F /* AdobeCleanSerifIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5750D3AC37D546B4BE058739 /* AdobeCleanSerifIt.woff */; };
+		7777D95DBEDB493FA6CA2442 /* AdobeCleanSerifMedium.woff in Resources */ = {isa = PBXBuildFile; fileRef = E82E795E7414407983B5E9A4 /* AdobeCleanSerifMedium.woff */; };
+		7C15BAB18C9341339618D07B /* AdobeCleanSerifMediumIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 61C9B2AA4B2C4DD688B606CA /* AdobeCleanSerifMediumIt.woff */; };
+		B50AEA90E407448B9CE3FB01 /* AdobeCleanSerifRegular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0D33783C84C34D9BB23A9A18 /* AdobeCleanSerifRegular.woff */; };
+		E0DF03722BD34FF183362B3C /* AdobeCleanUXBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = ACF28CA1AE21416BB31B475A /* AdobeCleanUXBold.woff */; };
+		C70A485698D74899B4AC6230 /* AdobeCleanUXBoldIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = BDB3F52585C349CD96758113 /* AdobeCleanUXBoldIt.woff */; };
+		E9737BB912654A62AA4AD12E /* AdobeCleanUXIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1C038D8D91C409AA8D43A88 /* AdobeCleanUXIt.woff */; };
+		049F95638E944F1AA88319B3 /* AdobeCleanUXLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = BE5318EBF2064192A4A62D47 /* AdobeCleanUXLight.woff */; };
+		D37E7BAB14B64DDE995424D3 /* AdobeCleanUXLightIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = EC5D92AB2C114730A0270CE0 /* AdobeCleanUXLightIt.woff */; };
+		25FD0944507240F8A7435611 /* AdobeCleanUXMedium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2B2CEE0987B84B39B4B8877B /* AdobeCleanUXMedium.woff */; };
+		1D7147FCF0A44DB1A012132F /* AdobeCleanUXMediumIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A776A96E541C88884F510 /* AdobeCleanUXMediumIt.woff */; };
+		4CA72BBEBF0645A6BA94743C /* AdobeCleanUXRegular.woff in Resources */ = {isa = PBXBuildFile; fileRef = EB60E960B99F43BAB258F4A4 /* AdobeCleanUXRegular.woff */; };
+		B6C5B3787D844BD4A1688D5C /* AdobeCleanUXSemiLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3590DE5C3DCB4352AB3CEA13 /* AdobeCleanUXSemiLight.woff */; };
+		CDB0FE3FD886465ABDC2CE7E /* AdobeCleanUXSemiLightIt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 531E151CC6B64D5EA3B36E20 /* AdobeCleanUXSemiLightIt.woff */; };
+		490438506FF6446DB363C6D1 /* Lato-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 49C004ADAD174606AB398603 /* Lato-Black.woff */; };
+		84734E95B0164D1EA17E3D68 /* Lato-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = E506221FABFE41ACB28CDBF0 /* Lato-BlackItalic.woff */; };
+		56023FF35B0A41B5B788C38A /* Lato-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5F8C3A6F0D9049FD8F5CBA87 /* Lato-Bold.woff */; };
+		88C00A593076420FA5EA1669 /* Lato-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3A61D7CF71EE4E88A3D4ACB6 /* Lato-BoldItalic.woff */; };
+		4FD67C20F30D44948F017D38 /* Lato-Hairline.woff in Resources */ = {isa = PBXBuildFile; fileRef = B48BA408896F4D369A48F986 /* Lato-Hairline.woff */; };
+		2C1B09F8555D4CD084F53C51 /* Lato-HairlineItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 78A395F6F68241D6AB9DCD25 /* Lato-HairlineItalic.woff */; };
+		71C6AEB45B704AAB8068583C /* Lato-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 31A432E714864520B5471274 /* Lato-Heavy.woff */; };
+		AE56E4A1E5A64C71BAB9038B /* Lato-HeavyItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBC8C89A614507B17CCF66 /* Lato-HeavyItalic.woff */; };
+		10016E2229E545D99F47AC1A /* Lato-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7AAF0FC6348749B38BDE5EF2 /* Lato-Italic.woff */; };
+		4E9C05D0DE7F4C309AA3F5BF /* Lato-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = B72832453281427191E912F9 /* Lato-Light.woff */; };
+		452AAC457BAF4D408DB78037 /* Lato-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8728870EF9F346AD9E346F13 /* Lato-LightItalic.woff */; };
+		EE4242ACF9F0445D935EAFCC /* Lato-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4CDFB83D7C2D4D78BA9A80DC /* Lato-Medium.woff */; };
+		CE4B52655E5E46F39FDED392 /* Lato-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7387DDC9AEAC442988B0590A /* Lato-MediumItalic.woff */; };
+		F79365E861D7470A9DFC54E1 /* Lato-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = D3E3F0F2A50C42898AEDB22E /* Lato-Regular.woff */; };
+		C66E69A33A1B48A1AAB0F05A /* Lato-Semibold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9816FECDA468420BB7CFFF35 /* Lato-Semibold.woff */; };
+		7691321B8F0143C8A6FCA36E /* Lato-SemiboldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 63B58DAFB97542C8A8311558 /* Lato-SemiboldItalic.woff */; };
+		E987E7557A3A47DF95DE4E54 /* Lato-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = BFC5A7CA7198487288A3368D /* Lato-Thin.woff */; };
+		E7A6A7BB133C4182B234EAFE /* Lato-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5DC41C0D859E4AF9871AAECE /* Lato-ThinItalic.woff */; };
+		1C976FC15C8842859C2606FC /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A69FB482D6594719ABF1DAB3 /* Lato-Black.ttf */; };
+		FA50CA81E39F407FAC2E7DAB /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 389139D26AED4CD386EA3876 /* Lato-BlackItalic.ttf */; };
+		247D2AE2D8A44570B1C2ED0D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C44731FA13234165A2C595F9 /* Lato-Bold.ttf */; };
+		E3E6585AAB804D6BBB45C6A1 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED3EAF3F27E4339AF70D917 /* Lato-BoldItalic.ttf */; };
+		954E3498DB0349F5A2BC6E0B /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91011E54B7B14B6EA5A1AE18 /* Lato-Hairline.ttf */; };
+		09F21CEA1A1F44B5B3114C5A /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 869580827DE34B588B1EE7CF /* Lato-HairlineItalic.ttf */; };
+		BCF12DEBBF274AAD8DF11B7E /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F67843859D04FE18B79D9E1 /* Lato-Heavy.ttf */; };
+		06D493F9EF50485C886A59A6 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C121F1C4BD40FC9AF11CDD /* Lato-HeavyItalic.ttf */; };
+		895E2D2BF0BE498A97B14163 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A9DE088B8E481DACF7FEE0 /* Lato-Italic.ttf */; };
+		A3F17E8D4D41499DAFE9021E /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E67B2633806B4A5CA2BEB2F7 /* Lato-Light.ttf */; };
+		5B6BBC88B3B042DDB37F2776 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B9D8706AE574CD289710367 /* Lato-LightItalic.ttf */; };
+		1231E8230EAD47A3B763C783 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59954111ABDD48EF94A8A771 /* Lato-Medium.ttf */; };
+		DE871281763A41E0858123E4 /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2496AAC60E9412DA79B910C /* Lato-MediumItalic.ttf */; };
+		78A39E47E9004121B4C811B8 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FCF64FC54584CE1BE21DA41 /* Lato-Regular.ttf */; };
+		EF01F7AA83DF4636ADB4114D /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DD40FE25EE845AFB150DC30 /* Lato-Semibold.ttf */; };
+		7F4C4678479A41BF9481879E /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861C821E07944B85B7DACBF3 /* Lato-SemiboldItalic.ttf */; };
+		D309D914F5274267940AEF84 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D929B4C7E6F4DB9803E16F2 /* Lato-Thin.ttf */; };
+		07A7A2F553284CCAA603D29F /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B670FF568C014ADA9BD0D24B /* Lato-ThinItalic.ttf */; };
+		0F520CC2A33C49C481B02BB5 /* FirstJob-X8rP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3C7E1E5FDF0450B817750DB /* FirstJob-X8rP.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AwesomeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AwesomeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeProjectTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AwesomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeProject/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AwesomeProject/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeProject/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E826564D618243AA8FF838DE /* AdobeCleanBlack.woff */ = {isa = PBXFileReference; name = "AdobeCleanBlack.woff"; path = "../assets/fonts/AdobeCleanBlack.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E1EBB50793347CD9A5A626A /* AdobeCleanBlackIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanBlackIt.woff"; path = "../assets/fonts/AdobeCleanBlackIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F95C278A03B24DA29DB904DE /* AdobeCleanBold.woff */ = {isa = PBXFileReference; name = "AdobeCleanBold.woff"; path = "../assets/fonts/AdobeCleanBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F10EFA7BB2A4584BFD0DADC /* AdobeCleanBoldIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanBoldIt.woff"; path = "../assets/fonts/AdobeCleanBoldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3C6D3914E4A4B5A9E99E9D4 /* AdobeCleanBoldSemiCn.woff */ = {isa = PBXFileReference; name = "AdobeCleanBoldSemiCn.woff"; path = "../assets/fonts/AdobeCleanBoldSemiCn.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6E122B6402F4422AA86977C /* AdobeCleanBoldSemiCnIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanBoldSemiCnIt.woff"; path = "../assets/fonts/AdobeCleanBoldSemiCnIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		655D1D149FE04F3EB7B18039 /* AdobeCleanExtraBold.woff */ = {isa = PBXFileReference; name = "AdobeCleanExtraBold.woff"; path = "../assets/fonts/AdobeCleanExtraBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5F99716519441F48C183D4D /* AdobeCleanExtraBoldIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanExtraBoldIt.woff"; path = "../assets/fonts/AdobeCleanExtraBoldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		269FEA4085B24DF990195E41 /* AdobeCleanIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanIt.woff"; path = "../assets/fonts/AdobeCleanIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		351BB70B87FB4C78AA8F3936 /* AdobeCleanLight.woff */ = {isa = PBXFileReference; name = "AdobeCleanLight.woff"; path = "../assets/fonts/AdobeCleanLight.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE7AD6B42B9E4BE8933E38DB /* AdobeCleanLightIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanLightIt.woff"; path = "../assets/fonts/AdobeCleanLightIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		226571847D1D483DAFB127E6 /* AdobeCleanRegular.woff */ = {isa = PBXFileReference; name = "AdobeCleanRegular.woff"; path = "../assets/fonts/AdobeCleanRegular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		425FE5F11EFD4050A86684D8 /* AdobeCleanSemiCn.woff */ = {isa = PBXFileReference; name = "AdobeCleanSemiCn.woff"; path = "../assets/fonts/AdobeCleanSemiCn.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		876E7F71282B4C90BA8671B3 /* AdobeCleanSemiCnIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanSemiCnIt.woff"; path = "../assets/fonts/AdobeCleanSemiCnIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBF933199AAE457C93B4FDEA /* AdobeCleanSemiLight.woff */ = {isa = PBXFileReference; name = "AdobeCleanSemiLight.woff"; path = "../assets/fonts/AdobeCleanSemiLight.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC88A5884F224F6F92663B02 /* AdobeCleanSerifBlack.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifBlack.woff"; path = "../assets/fonts/AdobeCleanSerifBlack.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68B1473525C84C6FB9824C6F /* AdobeCleanSerifBlackIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifBlackIt.woff"; path = "../assets/fonts/AdobeCleanSerifBlackIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27CB7A47DC094458967F7F48 /* AdobeCleanSerifBold.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifBold.woff"; path = "../assets/fonts/AdobeCleanSerifBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B9775FECB3544FCBB5536B7 /* AdobeCleanSerifBoldIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifBoldIt.woff"; path = "../assets/fonts/AdobeCleanSerifBoldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5750D3AC37D546B4BE058739 /* AdobeCleanSerifIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifIt.woff"; path = "../assets/fonts/AdobeCleanSerifIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E82E795E7414407983B5E9A4 /* AdobeCleanSerifMedium.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifMedium.woff"; path = "../assets/fonts/AdobeCleanSerifMedium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61C9B2AA4B2C4DD688B606CA /* AdobeCleanSerifMediumIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifMediumIt.woff"; path = "../assets/fonts/AdobeCleanSerifMediumIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D33783C84C34D9BB23A9A18 /* AdobeCleanSerifRegular.woff */ = {isa = PBXFileReference; name = "AdobeCleanSerifRegular.woff"; path = "../assets/fonts/AdobeCleanSerifRegular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACF28CA1AE21416BB31B475A /* AdobeCleanUXBold.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXBold.woff"; path = "../assets/fonts/AdobeCleanUXBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDB3F52585C349CD96758113 /* AdobeCleanUXBoldIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXBoldIt.woff"; path = "../assets/fonts/AdobeCleanUXBoldIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1C038D8D91C409AA8D43A88 /* AdobeCleanUXIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXIt.woff"; path = "../assets/fonts/AdobeCleanUXIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE5318EBF2064192A4A62D47 /* AdobeCleanUXLight.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXLight.woff"; path = "../assets/fonts/AdobeCleanUXLight.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC5D92AB2C114730A0270CE0 /* AdobeCleanUXLightIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXLightIt.woff"; path = "../assets/fonts/AdobeCleanUXLightIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B2CEE0987B84B39B4B8877B /* AdobeCleanUXMedium.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXMedium.woff"; path = "../assets/fonts/AdobeCleanUXMedium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E9A776A96E541C88884F510 /* AdobeCleanUXMediumIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXMediumIt.woff"; path = "../assets/fonts/AdobeCleanUXMediumIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB60E960B99F43BAB258F4A4 /* AdobeCleanUXRegular.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXRegular.woff"; path = "../assets/fonts/AdobeCleanUXRegular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3590DE5C3DCB4352AB3CEA13 /* AdobeCleanUXSemiLight.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXSemiLight.woff"; path = "../assets/fonts/AdobeCleanUXSemiLight.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		531E151CC6B64D5EA3B36E20 /* AdobeCleanUXSemiLightIt.woff */ = {isa = PBXFileReference; name = "AdobeCleanUXSemiLightIt.woff"; path = "../assets/fonts/AdobeCleanUXSemiLightIt.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49C004ADAD174606AB398603 /* Lato-Black.woff */ = {isa = PBXFileReference; name = "Lato-Black.woff"; path = "../assets/fonts/Lato-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E506221FABFE41ACB28CDBF0 /* Lato-BlackItalic.woff */ = {isa = PBXFileReference; name = "Lato-BlackItalic.woff"; path = "../assets/fonts/Lato-BlackItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F8C3A6F0D9049FD8F5CBA87 /* Lato-Bold.woff */ = {isa = PBXFileReference; name = "Lato-Bold.woff"; path = "../assets/fonts/Lato-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A61D7CF71EE4E88A3D4ACB6 /* Lato-BoldItalic.woff */ = {isa = PBXFileReference; name = "Lato-BoldItalic.woff"; path = "../assets/fonts/Lato-BoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B48BA408896F4D369A48F986 /* Lato-Hairline.woff */ = {isa = PBXFileReference; name = "Lato-Hairline.woff"; path = "../assets/fonts/Lato-Hairline.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78A395F6F68241D6AB9DCD25 /* Lato-HairlineItalic.woff */ = {isa = PBXFileReference; name = "Lato-HairlineItalic.woff"; path = "../assets/fonts/Lato-HairlineItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31A432E714864520B5471274 /* Lato-Heavy.woff */ = {isa = PBXFileReference; name = "Lato-Heavy.woff"; path = "../assets/fonts/Lato-Heavy.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2AFBC8C89A614507B17CCF66 /* Lato-HeavyItalic.woff */ = {isa = PBXFileReference; name = "Lato-HeavyItalic.woff"; path = "../assets/fonts/Lato-HeavyItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7AAF0FC6348749B38BDE5EF2 /* Lato-Italic.woff */ = {isa = PBXFileReference; name = "Lato-Italic.woff"; path = "../assets/fonts/Lato-Italic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B72832453281427191E912F9 /* Lato-Light.woff */ = {isa = PBXFileReference; name = "Lato-Light.woff"; path = "../assets/fonts/Lato-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8728870EF9F346AD9E346F13 /* Lato-LightItalic.woff */ = {isa = PBXFileReference; name = "Lato-LightItalic.woff"; path = "../assets/fonts/Lato-LightItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CDFB83D7C2D4D78BA9A80DC /* Lato-Medium.woff */ = {isa = PBXFileReference; name = "Lato-Medium.woff"; path = "../assets/fonts/Lato-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7387DDC9AEAC442988B0590A /* Lato-MediumItalic.woff */ = {isa = PBXFileReference; name = "Lato-MediumItalic.woff"; path = "../assets/fonts/Lato-MediumItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3E3F0F2A50C42898AEDB22E /* Lato-Regular.woff */ = {isa = PBXFileReference; name = "Lato-Regular.woff"; path = "../assets/fonts/Lato-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9816FECDA468420BB7CFFF35 /* Lato-Semibold.woff */ = {isa = PBXFileReference; name = "Lato-Semibold.woff"; path = "../assets/fonts/Lato-Semibold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63B58DAFB97542C8A8311558 /* Lato-SemiboldItalic.woff */ = {isa = PBXFileReference; name = "Lato-SemiboldItalic.woff"; path = "../assets/fonts/Lato-SemiboldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFC5A7CA7198487288A3368D /* Lato-Thin.woff */ = {isa = PBXFileReference; name = "Lato-Thin.woff"; path = "../assets/fonts/Lato-Thin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5DC41C0D859E4AF9871AAECE /* Lato-ThinItalic.woff */ = {isa = PBXFileReference; name = "Lato-ThinItalic.woff"; path = "../assets/fonts/Lato-ThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A69FB482D6594719ABF1DAB3 /* Lato-Black.ttf */ = {isa = PBXFileReference; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		389139D26AED4CD386EA3876 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Lato-BlackItalic.ttf"; path = "../assets/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C44731FA13234165A2C595F9 /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FED3EAF3F27E4339AF70D917 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Lato-BoldItalic.ttf"; path = "../assets/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91011E54B7B14B6EA5A1AE18 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; name = "Lato-Hairline.ttf"; path = "../assets/fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		869580827DE34B588B1EE7CF /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; name = "Lato-HairlineItalic.ttf"; path = "../assets/fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F67843859D04FE18B79D9E1 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; name = "Lato-Heavy.ttf"; path = "../assets/fonts/Lato-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83C121F1C4BD40FC9AF11CDD /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "Lato-HeavyItalic.ttf"; path = "../assets/fonts/Lato-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		88A9DE088B8E481DACF7FEE0 /* Lato-Italic.ttf */ = {isa = PBXFileReference; name = "Lato-Italic.ttf"; path = "../assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E67B2633806B4A5CA2BEB2F7 /* Lato-Light.ttf */ = {isa = PBXFileReference; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B9D8706AE574CD289710367 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; name = "Lato-LightItalic.ttf"; path = "../assets/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59954111ABDD48EF94A8A771 /* Lato-Medium.ttf */ = {isa = PBXFileReference; name = "Lato-Medium.ttf"; path = "../assets/fonts/Lato-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2496AAC60E9412DA79B910C /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Lato-MediumItalic.ttf"; path = "../assets/fonts/Lato-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FCF64FC54584CE1BE21DA41 /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DD40FE25EE845AFB150DC30 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; name = "Lato-Semibold.ttf"; path = "../assets/fonts/Lato-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		861C821E07944B85B7DACBF3 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; name = "Lato-SemiboldItalic.ttf"; path = "../assets/fonts/Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D929B4C7E6F4DB9803E16F2 /* Lato-Thin.ttf */ = {isa = PBXFileReference; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B670FF568C014ADA9BD0D24B /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Lato-ThinItalic.ttf"; path = "../assets/fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3C7E1E5FDF0450B817750DB /* FirstJob-X8rP.ttf */ = {isa = PBXFileReference; name = "FirstJob-X8rP.ttf"; path = "../assets/fonts/FirstJob-X8rP.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AwesomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AwesomeProjectTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AwesomeProjectTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AwesomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AwesomeProject;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AwesomeProject */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				96C33B5919FD4802915EE2E3 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AwesomeProject.app */,
+				00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C33B5919FD4802915EE2E3 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E826564D618243AA8FF838DE /* AdobeCleanBlack.woff */,
+				5E1EBB50793347CD9A5A626A /* AdobeCleanBlackIt.woff */,
+				F95C278A03B24DA29DB904DE /* AdobeCleanBold.woff */,
+				3F10EFA7BB2A4584BFD0DADC /* AdobeCleanBoldIt.woff */,
+				E3C6D3914E4A4B5A9E99E9D4 /* AdobeCleanBoldSemiCn.woff */,
+				E6E122B6402F4422AA86977C /* AdobeCleanBoldSemiCnIt.woff */,
+				655D1D149FE04F3EB7B18039 /* AdobeCleanExtraBold.woff */,
+				E5F99716519441F48C183D4D /* AdobeCleanExtraBoldIt.woff */,
+				269FEA4085B24DF990195E41 /* AdobeCleanIt.woff */,
+				351BB70B87FB4C78AA8F3936 /* AdobeCleanLight.woff */,
+				EE7AD6B42B9E4BE8933E38DB /* AdobeCleanLightIt.woff */,
+				226571847D1D483DAFB127E6 /* AdobeCleanRegular.woff */,
+				425FE5F11EFD4050A86684D8 /* AdobeCleanSemiCn.woff */,
+				876E7F71282B4C90BA8671B3 /* AdobeCleanSemiCnIt.woff */,
+				BBF933199AAE457C93B4FDEA /* AdobeCleanSemiLight.woff */,
+				EC88A5884F224F6F92663B02 /* AdobeCleanSerifBlack.woff */,
+				68B1473525C84C6FB9824C6F /* AdobeCleanSerifBlackIt.woff */,
+				27CB7A47DC094458967F7F48 /* AdobeCleanSerifBold.woff */,
+				4B9775FECB3544FCBB5536B7 /* AdobeCleanSerifBoldIt.woff */,
+				5750D3AC37D546B4BE058739 /* AdobeCleanSerifIt.woff */,
+				E82E795E7414407983B5E9A4 /* AdobeCleanSerifMedium.woff */,
+				61C9B2AA4B2C4DD688B606CA /* AdobeCleanSerifMediumIt.woff */,
+				0D33783C84C34D9BB23A9A18 /* AdobeCleanSerifRegular.woff */,
+				ACF28CA1AE21416BB31B475A /* AdobeCleanUXBold.woff */,
+				BDB3F52585C349CD96758113 /* AdobeCleanUXBoldIt.woff */,
+				A1C038D8D91C409AA8D43A88 /* AdobeCleanUXIt.woff */,
+				BE5318EBF2064192A4A62D47 /* AdobeCleanUXLight.woff */,
+				EC5D92AB2C114730A0270CE0 /* AdobeCleanUXLightIt.woff */,
+				2B2CEE0987B84B39B4B8877B /* AdobeCleanUXMedium.woff */,
+				4E9A776A96E541C88884F510 /* AdobeCleanUXMediumIt.woff */,
+				EB60E960B99F43BAB258F4A4 /* AdobeCleanUXRegular.woff */,
+				3590DE5C3DCB4352AB3CEA13 /* AdobeCleanUXSemiLight.woff */,
+				531E151CC6B64D5EA3B36E20 /* AdobeCleanUXSemiLightIt.woff */,
+				49C004ADAD174606AB398603 /* Lato-Black.woff */,
+				E506221FABFE41ACB28CDBF0 /* Lato-BlackItalic.woff */,
+				5F8C3A6F0D9049FD8F5CBA87 /* Lato-Bold.woff */,
+				3A61D7CF71EE4E88A3D4ACB6 /* Lato-BoldItalic.woff */,
+				B48BA408896F4D369A48F986 /* Lato-Hairline.woff */,
+				78A395F6F68241D6AB9DCD25 /* Lato-HairlineItalic.woff */,
+				31A432E714864520B5471274 /* Lato-Heavy.woff */,
+				2AFBC8C89A614507B17CCF66 /* Lato-HeavyItalic.woff */,
+				7AAF0FC6348749B38BDE5EF2 /* Lato-Italic.woff */,
+				B72832453281427191E912F9 /* Lato-Light.woff */,
+				8728870EF9F346AD9E346F13 /* Lato-LightItalic.woff */,
+				4CDFB83D7C2D4D78BA9A80DC /* Lato-Medium.woff */,
+				7387DDC9AEAC442988B0590A /* Lato-MediumItalic.woff */,
+				D3E3F0F2A50C42898AEDB22E /* Lato-Regular.woff */,
+				9816FECDA468420BB7CFFF35 /* Lato-Semibold.woff */,
+				63B58DAFB97542C8A8311558 /* Lato-SemiboldItalic.woff */,
+				BFC5A7CA7198487288A3368D /* Lato-Thin.woff */,
+				5DC41C0D859E4AF9871AAECE /* Lato-ThinItalic.woff */,
+				A69FB482D6594719ABF1DAB3 /* Lato-Black.ttf */,
+				389139D26AED4CD386EA3876 /* Lato-BlackItalic.ttf */,
+				C44731FA13234165A2C595F9 /* Lato-Bold.ttf */,
+				FED3EAF3F27E4339AF70D917 /* Lato-BoldItalic.ttf */,
+				91011E54B7B14B6EA5A1AE18 /* Lato-Hairline.ttf */,
+				869580827DE34B588B1EE7CF /* Lato-HairlineItalic.ttf */,
+				3F67843859D04FE18B79D9E1 /* Lato-Heavy.ttf */,
+				83C121F1C4BD40FC9AF11CDD /* Lato-HeavyItalic.ttf */,
+				88A9DE088B8E481DACF7FEE0 /* Lato-Italic.ttf */,
+				E67B2633806B4A5CA2BEB2F7 /* Lato-Light.ttf */,
+				7B9D8706AE574CD289710367 /* Lato-LightItalic.ttf */,
+				59954111ABDD48EF94A8A771 /* Lato-Medium.ttf */,
+				C2496AAC60E9412DA79B910C /* Lato-MediumItalic.ttf */,
+				2FCF64FC54584CE1BE21DA41 /* Lato-Regular.ttf */,
+				0DD40FE25EE845AFB150DC30 /* Lato-Semibold.ttf */,
+				861C821E07944B85B7DACBF3 /* Lato-SemiboldItalic.ttf */,
+				3D929B4C7E6F4DB9803E16F2 /* Lato-Thin.ttf */,
+				B670FF568C014ADA9BD0D24B /* Lato-ThinItalic.ttf */,
+				B3C7E1E5FDF0450B817750DB /* FirstJob-X8rP.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AwesomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeProjectTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AwesomeProjectTests;
+			productName = AwesomeProjectTests;
+			productReference = 00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AwesomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeProject;
+			productName = AwesomeProject;
+			productReference = 13B07F961A680F5B00A75B9A /* AwesomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AwesomeProject */,
+				00E356ED1AD99517003FC87E /* AwesomeProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				97A9D0755094424F9C703A52 /* AdobeCleanBlack.woff in Resources */,
+				FF86C7B49B9B4977A805ABC5 /* AdobeCleanBlackIt.woff in Resources */,
+				3B7B5FE6B3C2460881377556 /* AdobeCleanBold.woff in Resources */,
+				32FC245B04D845CA9C54DAF3 /* AdobeCleanBoldIt.woff in Resources */,
+				C8168685A88C4836A5249C2E /* AdobeCleanBoldSemiCn.woff in Resources */,
+				14BC385560DC4965A9BB1664 /* AdobeCleanBoldSemiCnIt.woff in Resources */,
+				E9764AA2C8394803A83A02D9 /* AdobeCleanExtraBold.woff in Resources */,
+				4FBF607CE4464545B2C907A8 /* AdobeCleanExtraBoldIt.woff in Resources */,
+				3888418565CE4F8F954BD733 /* AdobeCleanIt.woff in Resources */,
+				17832E1DF1CD4CB7BAE523D8 /* AdobeCleanLight.woff in Resources */,
+				6EA058DA22E2474E9D01A3E2 /* AdobeCleanLightIt.woff in Resources */,
+				D0E263DA048A42D79431D733 /* AdobeCleanRegular.woff in Resources */,
+				00D090D46EBC479589187961 /* AdobeCleanSemiCn.woff in Resources */,
+				FAE0AA40030D4969B53897ED /* AdobeCleanSemiCnIt.woff in Resources */,
+				01D4B913B42943EAB49AD5D2 /* AdobeCleanSemiLight.woff in Resources */,
+				B2769BE5150C45CF8E7865E2 /* AdobeCleanSerifBlack.woff in Resources */,
+				D669AD16D0F44DE78E143601 /* AdobeCleanSerifBlackIt.woff in Resources */,
+				59E7840C247B459AB9B44EB7 /* AdobeCleanSerifBold.woff in Resources */,
+				FCA0E75626334A35B6D9EE89 /* AdobeCleanSerifBoldIt.woff in Resources */,
+				511D7DCBCD244CA397A98A2F /* AdobeCleanSerifIt.woff in Resources */,
+				7777D95DBEDB493FA6CA2442 /* AdobeCleanSerifMedium.woff in Resources */,
+				7C15BAB18C9341339618D07B /* AdobeCleanSerifMediumIt.woff in Resources */,
+				B50AEA90E407448B9CE3FB01 /* AdobeCleanSerifRegular.woff in Resources */,
+				E0DF03722BD34FF183362B3C /* AdobeCleanUXBold.woff in Resources */,
+				C70A485698D74899B4AC6230 /* AdobeCleanUXBoldIt.woff in Resources */,
+				E9737BB912654A62AA4AD12E /* AdobeCleanUXIt.woff in Resources */,
+				049F95638E944F1AA88319B3 /* AdobeCleanUXLight.woff in Resources */,
+				D37E7BAB14B64DDE995424D3 /* AdobeCleanUXLightIt.woff in Resources */,
+				25FD0944507240F8A7435611 /* AdobeCleanUXMedium.woff in Resources */,
+				1D7147FCF0A44DB1A012132F /* AdobeCleanUXMediumIt.woff in Resources */,
+				4CA72BBEBF0645A6BA94743C /* AdobeCleanUXRegular.woff in Resources */,
+				B6C5B3787D844BD4A1688D5C /* AdobeCleanUXSemiLight.woff in Resources */,
+				CDB0FE3FD886465ABDC2CE7E /* AdobeCleanUXSemiLightIt.woff in Resources */,
+				490438506FF6446DB363C6D1 /* Lato-Black.woff in Resources */,
+				84734E95B0164D1EA17E3D68 /* Lato-BlackItalic.woff in Resources */,
+				56023FF35B0A41B5B788C38A /* Lato-Bold.woff in Resources */,
+				88C00A593076420FA5EA1669 /* Lato-BoldItalic.woff in Resources */,
+				4FD67C20F30D44948F017D38 /* Lato-Hairline.woff in Resources */,
+				2C1B09F8555D4CD084F53C51 /* Lato-HairlineItalic.woff in Resources */,
+				71C6AEB45B704AAB8068583C /* Lato-Heavy.woff in Resources */,
+				AE56E4A1E5A64C71BAB9038B /* Lato-HeavyItalic.woff in Resources */,
+				10016E2229E545D99F47AC1A /* Lato-Italic.woff in Resources */,
+				4E9C05D0DE7F4C309AA3F5BF /* Lato-Light.woff in Resources */,
+				452AAC457BAF4D408DB78037 /* Lato-LightItalic.woff in Resources */,
+				EE4242ACF9F0445D935EAFCC /* Lato-Medium.woff in Resources */,
+				CE4B52655E5E46F39FDED392 /* Lato-MediumItalic.woff in Resources */,
+				F79365E861D7470A9DFC54E1 /* Lato-Regular.woff in Resources */,
+				C66E69A33A1B48A1AAB0F05A /* Lato-Semibold.woff in Resources */,
+				7691321B8F0143C8A6FCA36E /* Lato-SemiboldItalic.woff in Resources */,
+				E987E7557A3A47DF95DE4E54 /* Lato-Thin.woff in Resources */,
+				E7A6A7BB133C4182B234EAFE /* Lato-ThinItalic.woff in Resources */,
+				1C976FC15C8842859C2606FC /* Lato-Black.ttf in Resources */,
+				FA50CA81E39F407FAC2E7DAB /* Lato-BlackItalic.ttf in Resources */,
+				247D2AE2D8A44570B1C2ED0D /* Lato-Bold.ttf in Resources */,
+				E3E6585AAB804D6BBB45C6A1 /* Lato-BoldItalic.ttf in Resources */,
+				954E3498DB0349F5A2BC6E0B /* Lato-Hairline.ttf in Resources */,
+				09F21CEA1A1F44B5B3114C5A /* Lato-HairlineItalic.ttf in Resources */,
+				BCF12DEBBF274AAD8DF11B7E /* Lato-Heavy.ttf in Resources */,
+				06D493F9EF50485C886A59A6 /* Lato-HeavyItalic.ttf in Resources */,
+				895E2D2BF0BE498A97B14163 /* Lato-Italic.ttf in Resources */,
+				A3F17E8D4D41499DAFE9021E /* Lato-Light.ttf in Resources */,
+				5B6BBC88B3B042DDB37F2776 /* Lato-LightItalic.ttf in Resources */,
+				1231E8230EAD47A3B763C783 /* Lato-Medium.ttf in Resources */,
+				DE871281763A41E0858123E4 /* Lato-MediumItalic.ttf in Resources */,
+				78A39E47E9004121B4C811B8 /* Lato-Regular.ttf in Resources */,
+				EF01F7AA83DF4636ADB4114D /* Lato-Semibold.ttf in Resources */,
+				7F4C4678479A41BF9481879E /* Lato-SemiboldItalic.ttf in Resources */,
+				D309D914F5274267940AEF84 /* Lato-Thin.ttf in Resources */,
+				07A7A2F553284CCAA603D29F /* Lato-ThinItalic.ttf in Resources */,
+				0F520CC2A33C49C481B02BB5 /* FirstJob-X8rP.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AwesomeProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AwesomeProject */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AwesomeProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeProject.app/AwesomeProject";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AwesomeProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeProject.app/AwesomeProject";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AwesomeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AwesomeProject;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AwesomeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AwesomeProject;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

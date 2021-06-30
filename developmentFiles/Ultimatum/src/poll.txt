@@ -1,0 +1,12 @@
+var arr = [
+    {q: 'What is the most important trait of event leaders posess?' },
+];
+var currQ = 0;
+var ans = 'next';
+if(currQ < arr.length){
+ var qNum = arr[currQ];
+
+}
+if(currQ  == arr.length){
+     ans = 'Submit';
+}
